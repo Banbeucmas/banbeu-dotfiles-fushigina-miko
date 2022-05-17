@@ -1,0 +1,49 @@
+st.font: t cherry wide:pixelsize=12:antialias=false:autohint=true;
+
+st.shell: /bin/zsh
+
+! special
+st.foreground:   #ffffff
+st.background:   #302f2f
+st.cursorColor:  #ffffff
+
+! black
+st.color0:       #302f2f
+st.color8:       #424141
+
+! red
+st.color1:       #f35a5a
+st.color9:       #ffa6a6
+
+! green
+st.color2:       #86ae5c
+st.color10:      #93ad7d
+
+! yellow
+st.color3:       #e6b681
+st.color11:      #ffecba
+
+! blue
+st.color4:       #83b1e0
+st.color12:      #9cb7cf
+
+! magenta
+st.color5:       #ec7285
+st.color13:      #ffc6cf
+
+! cyan
+st.color6:       #88d0ba
+st.color14:      #a5d8c9
+
+! white
+st.color7:       #6d6d6d
+st.color15:      #ffffff
+
+
+
+polybar.background: #302f2f
+polybar.background-alt: #e4b580
+polybar.background-alt-1: #ffecba
+polybar.foreground: #ffffff
+polybar.foreground-alt: #ffecba
+
