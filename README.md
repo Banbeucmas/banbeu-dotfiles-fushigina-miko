@@ -17,4 +17,6 @@ This also serves as a practice time for me when it comes to Bash and Linux manag
 - [ ] dotfile manager
 - [ ] music player
 
-All of the current process will be done on a Virtual Machine
+## Current Progress
+![image](https://user-images.githubusercontent.com/10562127/169715277-0646beb4-1889-4e48-8867-1d284e085991.png)
+
