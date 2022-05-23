@@ -46,5 +46,5 @@ polybar.background: #ffffff
 polybar.background-alt: #83b1e0
 polybar.background-alt-1: #ffecba
 polybar.foreground: #ffa6a6
-polybar.foreground-alt: #83b1e0
+polybar.foreground-alt: #6d6d6d
 

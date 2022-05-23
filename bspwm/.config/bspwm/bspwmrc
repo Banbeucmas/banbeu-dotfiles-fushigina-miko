@@ -52,7 +52,7 @@ bspc rule -a xst-256color:xst-ncmpcpp state=floating
 bspc rule -a xst-256color:xst-calendar state=floating focus=off monitor='HDMI1'
 
 
-polybar & picom --experimental-backend & nitrogen --restore
+polybar main-bar-left & polybar main-bar-right & picom --experimental-backend & nitrogen --restore
 
 # sleep 1 && mpc add / && nitrogen --restore && ~/.config/polybar/launch.sh & 
 # mpc add / && nitrogen --restore && ~/.config/polybar/launch.sh &
