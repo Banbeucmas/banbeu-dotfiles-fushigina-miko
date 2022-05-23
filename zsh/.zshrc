@@ -13,7 +13,7 @@ compinit
 
 export TERM=xterm-256color
 
-PROMPT='%F{11}%n%F{3}@%F{3}%m%f %F{11}%8~%F{11} '
+PROMPT='%F{1}%n%F{7}@%F{7}%m%f %F{7}%8~%F{7} '
 
 alias toys="~/.scripts/toys"
 alias patchart="~/.scripts/patchart"

@@ -1,10 +1,11 @@
-st.font: t cherry wide:pixelsize=12:antialias=false:autohint=true;
+st.font: Mononoki Nerd Font Mono:pixelsize=16:antialias=true:autohint=true;
+st.borderpx: 10
 
 st.shell: /bin/zsh
 
 ! special
-st.foreground:   #ffffff
-st.background:   #302f2f
+st.foreground:   #302f2f
+st.background:   #ffffff
 st.cursorColor:  #ffffff
 
 ! black
