@@ -13,7 +13,7 @@ This also serves as a practice time for me when it comes to Bash and Linux manag
 - [ ] polybars
 - [ ] rofi-theme
 - [ ] theme-swicher
-- [ ] zst
+- [x] zst
 - [ ] dotfile manager
 - [ ] music player
 
