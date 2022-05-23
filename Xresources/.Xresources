@@ -42,9 +42,9 @@ st.color15:      #ffffff
 
 
 
-polybar.background: #302f2f
-polybar.background-alt: #e4b580
+polybar.background: #ffffff
+polybar.background-alt: #83b1e0
 polybar.background-alt-1: #ffecba
-polybar.foreground: #ffffff
-polybar.foreground-alt: #ffecba
+polybar.foreground: #ffa6a6
+polybar.foreground-alt: #83b1e0
 
