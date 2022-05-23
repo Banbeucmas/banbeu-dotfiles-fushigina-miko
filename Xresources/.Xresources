@@ -1,5 +1,5 @@
 st.font: Mononoki Nerd Font Mono:pixelsize=16:antialias=true:autohint=true;
-st.borderpx: 10
+st.borderpx: 20
 
 st.shell: /bin/zsh
 
