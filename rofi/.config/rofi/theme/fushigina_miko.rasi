@@ -1,0 +1,75 @@
+* {
+    background: #ffffff;
+    foreground: #302f2f;
+    foreground-alt: #f35a5a;
+}
+
+window {
+    background-color: var(background);
+    padding: 20px 20px 30px 20px;
+    width: 900px;
+}
+
+inputbar {
+    text-color: var(foreground);
+    padding: 10px;
+    children: [ "prompt","textbox-prompt-colon","entry"];
+}
+
+prompt {
+    text-color: var(foreground-alt);
+}
+
+textbox-prompt-colon {
+    margin:     0px 4px 0px 0px ;
+    expand:     false;
+    str:        ":";
+    text-color: inherit;
+}
+
+entry {
+    text-color:        var(foreground);
+    cursor:            text;
+    spacing:           0;
+    placeholder-color: Gray;
+    placeholder:       "Type to filter";
+}
+
+listview {
+    padding: 10px;
+    columns: 3;
+    spacing: 4px;
+    lines: 12;
+}
+
+element-text {
+    background-color: transparent;
+    cursor:           inherit;
+    highlight:        inherit;
+    text-color:       inherit;
+}
+
+element normal.normal {
+    background-color: #ffffff;
+    text-color: var(foreground);
+}
+
+element normal.active {
+    background-color: #ffffff;
+    text-color: var(foreground);
+}
+
+element alternate.normal {
+    background-color: #ffffff;
+    text-color: var(foreground);
+}
+
+element alternate.normal {
+    background-color: #ffffff;
+    text-color: var(foreground);
+}
+
+element selected.normal {
+    background-color: #ffffff;
+    text-color: var(foreground-alt);
+}
