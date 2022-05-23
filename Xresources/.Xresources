@@ -3,6 +3,8 @@ st.borderpx: 10
 
 st.shell: /bin/zsh
 
+st.chscale:           1.0
+
 ! special
 st.foreground:   #302f2f
 st.background:   #ffffff
@@ -37,8 +39,8 @@ st.color6:       #88d0ba
 st.color14:      #a5d8c9
 
 ! white
-st.color7:       #6d6d6d
-st.color15:      #ffffff
+st.color7:       #ffffff
+st.color15:      #6d6d6d
 
 
 
