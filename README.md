@@ -18,5 +18,6 @@ This also serves as a practice time for me when it comes to Bash and Linux manag
 - [ ] music player
 
 ## Current Progress
-![image](https://user-images.githubusercontent.com/10562127/169715277-0646beb4-1889-4e48-8867-1d284e085991.png)
+![image](https://user-images.githubusercontent.com/10562127/169892244-7036c49f-6ff7-4662-9722-679e119513b5.png)
+
 
