@@ -8,10 +8,10 @@ super + shift + Return
 
 # program launcher
 super + d
-	rofi -show drun -font "t cherry 9" -width 40 -lines 9
+	rofi -show drun -width 40 -lines 9 -columns 3
 
 super + a
-    rofi -show ssh -font "t cherry 9"  -width 40 -lines 9
+    rofi -show ssh -width 40 -lines 9 -columns 3
 
 
 # make sxhkd reload its configuration files:
