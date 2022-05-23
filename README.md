@@ -10,12 +10,14 @@ This also serves as a practice time for me when it comes to Bash and Linux manag
 **DE:** XFCE
 
 ## To-do list
-- [ ] polybars
-- [ ] rofi-theme
+- [-] polybars
+- [-] rofi-theme
 - [ ] theme-swicher
 - [x] zst
 - [ ] dotfile manager
 - [ ] music player
+
+* Decline tags are used as in progress here
 
 ## Current Progress
 ![image](https://user-images.githubusercontent.com/10562127/169892353-09d50ff5-28bf-4d4c-ba7b-716fc40546ae.png)
