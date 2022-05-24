@@ -39,9 +39,8 @@ st.color6:       #88d0ba
 st.color14:      #a5d8c9
 
 ! white
-st.color7:       #ffffff
-st.color15:      #6d6d6d
-
+st.color7:       #6d6d6d
+st.color15:      #ffffff
 
 
 polybar.background: #ffffff
