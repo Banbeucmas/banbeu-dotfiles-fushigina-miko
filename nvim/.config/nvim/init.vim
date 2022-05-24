@@ -33,6 +33,9 @@ call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
  Plug 'neoclide/coc.nvim', {'branch': 'release'}
  Plug 'sonph/onehalf', { 'rtp': 'vim' }
  Plug 'itchyny/lightline.vim'
+ Plug 'vim-airline/vim-airline'
+ Plug 'vim-airline/vim-airline-themes'
+
 call plug#end()
 
 syntax enable
@@ -45,7 +48,7 @@ endif
 
 colorscheme onehalflight
 
-let g:lightline = { 'colorscheme': 'onehalflight' }
+let g:airline_theme='onehalflight'
 
 set splitright
 set splitbelow

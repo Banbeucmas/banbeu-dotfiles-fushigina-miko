@@ -1,7 +1,7 @@
 configuration {
   mode: [ combi ];
   combi-mode: [drun, ssh];
-  font: "Cantarell 10";
+  font: "Cascadia Code 10";
 
   timeout {
     action: "kb-cancel";

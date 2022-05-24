@@ -1,4 +1,4 @@
-st.font: Mononoki Nerd Font Mono:pixelsize=16:antialias=true:autohint=true;
+st.font: Cascadia Code:pixelsize=14:style=SemiLight:antialias=true:autohint=true;
 st.borderpx: 20
 
 st.shell: /bin/zsh
