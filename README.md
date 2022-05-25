@@ -21,5 +21,7 @@ This also serves as a practice time for me when it comes to Bash and Linux manag
 ## Current Progress
 ![image](https://user-images.githubusercontent.com/10562127/170035607-30b8bcbd-12f2-4768-9381-93d550e500aa.png)
 ![image](https://user-images.githubusercontent.com/10562127/170035644-ca749e12-4118-4ec8-8079-11a6e8ce3297.png)
+![image](https://user-images.githubusercontent.com/10562127/170281363-e0cd9435-f040-4d35-849a-b1d4abbeac04.png)
+
 
 
