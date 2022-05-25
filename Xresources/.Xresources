@@ -3,7 +3,7 @@ st.borderpx: 20
 
 st.shell: /bin/zsh
 
-st.chscale:           1.0
+st.chscale:           1.15
 
 ! special
 st.foreground:   #302f2f
