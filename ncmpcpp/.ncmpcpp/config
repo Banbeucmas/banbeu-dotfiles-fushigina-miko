@@ -10,9 +10,14 @@ mpd_music_dir = /mnt/suzunaan/Music
 autocenter_mode = "yes"
 colors_enabled = "yes"
 connected_message_on_startup = "no"
+lines_scrolled = 1
+current_item_inactive_column_prefix = red
+current_item_inactive_column_suffix = red
+centered_cursor = "yes"
+
 
 # window
-song_list_format = $(9){%a - }{%t}$R{$2%l}
+song_list_format = "$(9){%40t}$R{%a}  {$2%l}"
 now_playing_prefix = "$b$2  | $2"
 now_playing_suffix = "$/b$2"
 
@@ -28,7 +33,7 @@ user_interface = classic
 
 # progressbar
 progressbar_look = "▃▃ "
-progressbar_color = "8:b"
+progressbar_color = 8
 progressbar_elapsed_color = "red:b"
 
 # statusbar
@@ -44,6 +49,10 @@ external_editor = nvim
 use_console_editor = yes
 
 # ueberzurg
+visualizer_data_source = /tmp/mpd.fifo
+visualizer_output_name = "mpd_visualizer"
+visualizer_type        = "wave_filled"
+
 visualizer_look = "  "           
 startup_screen = visualizer      
 startup_slave_screen = playlist  
@@ -52,3 +61,4 @@ locked_screen_width_part = 30
 
 # scripts
 execute_on_song_change = /home/banbeucmas/.ncmpcpp/ncmpcpp-ueberzug/ncmpcpp_cover_art.sh
+
