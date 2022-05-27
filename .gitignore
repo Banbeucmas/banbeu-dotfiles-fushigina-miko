@@ -1,2 +1,2 @@
 code/.config/Code/*
-!code/.config/Code/User/settings.json
+!*/code/.config/Code/User/settings.json
