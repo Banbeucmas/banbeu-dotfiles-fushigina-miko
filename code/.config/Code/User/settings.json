@@ -1,6 +1,6 @@
 {
     "git.autofetch": true,
-    "workbench.colorTheme": "Visual Studio Light",
+    "workbench.colorTheme": "Default Light+",
     "workbench.preferredHighContrastColorTheme": "Default High Contrast Light",
     "editor.fontFamily": "'Caskaydia Code Mono', 'CaskaydiaCove Nerd Font Mono', 'Droid Sans Mono', 'monospace', monospace",
     "workbench.colorCustomizations": {
