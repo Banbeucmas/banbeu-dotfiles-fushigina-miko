@@ -9,5 +9,6 @@
         "activityBar.activeBackground": "#ffa6a6",
         "statusBar.background" : "#ffa6a6"
     },
-    "editor.fontWeight": "normal"
+    "editor.fontWeight": "normal",
+    "window.zoomLevel": 1
 }
