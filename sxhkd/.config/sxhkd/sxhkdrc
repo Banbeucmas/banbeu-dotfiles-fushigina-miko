@@ -133,10 +133,6 @@ super + {Left,Down,Up,Right}
 super + e
 	bspc node @/ -R 90
 
-# open utility
-super + shift + p
-	bspc node -f --flag hidden
-
 #Utility Keys
 XF86Audio{Raise,Lower}Volume
     ~/.scripts/changevolume 6.67%{+,-}
