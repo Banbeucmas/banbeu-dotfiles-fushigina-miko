@@ -16,7 +16,7 @@ This also serves as a practice time for me when it comes to Bash and Linux manag
 - [x] zst
 - [ ] dotfile manager
 - [ ] music player
-- [ ] install scripts
+- [x] install scripts
 
 ## Current Progress
 ![image](https://user-images.githubusercontent.com/10562127/170035607-30b8bcbd-12f2-4768-9381-93d550e500aa.png)
