@@ -149,7 +149,9 @@ XF86AudioPlay
 Print
     xfce4-screenshooter -r
 
-
+#Hacky polybar galore aaaa
+super + x
+    ~/.config/sxhkd/scripts/mpd-toggle.sh
 
 
 super + alt + b + {0, 9}
