@@ -9,19 +9,42 @@ This also serves as a practice time for me when it comes to Bash and Linux manag
 
 **DE:** XFCE
 
+**Wallpaper:** [Credit to 萃, click here to check](https://www.pixiv.net/en/artworks/65066440)
+
 ## To-do list
 - [x] polybars
 - [x] rofi-theme
 - [ ] theme-swicher
 - [x] zst
 - [ ] dotfile manager
-- [ ] music player
+- [x] music player
 - [x] install scripts
+- [ ] notification
 
-## Current Progress
-![image](https://user-images.githubusercontent.com/10562127/170035607-30b8bcbd-12f2-4768-9381-93d550e500aa.png)
-![image](https://user-images.githubusercontent.com/10562127/170035644-ca749e12-4118-4ec8-8079-11a6e8ce3297.png)
-![image](https://user-images.githubusercontent.com/10562127/170281363-e0cd9435-f040-4d35-849a-b1d4abbeac04.png)
+## Installtion
+Clone the repository
+```bash
+git clone https://github.com/Banbeucmas/banbeu-arch-dotfiles.git
+cd banbeu-arch-dotfiles
+```
+
+For arch-based system. Edit `install.sh` and execute
+I recommend putting ignore option to `no` and set option to `partial` for existing user that has rice
+
+Else, install `rofi` `sxhkd` `picom-jonaburg-fix` `mpd` `libmpdclient` `polybar` `ncmpcpp` `python-ueberzug-git` `xorg-xrdb` `xorg-xinit` `zsh` `stow` `gotop` `code` `zscroll-git`, cd to the repository and manually use `stow` to apply the config
+
+Alternatively, to stow all files, use 
+```bash
+make
+```
+
+For wallpaper, I intentionally left it out of this rice, read above and apply the wallpaper manually if you want to use it for your rice
+
+## Image
+![image](https://user-images.githubusercontent.com/10562127/171936025-22c9139f-2de3-4a68-9869-e28e8fb922e7.png)
+![image](https://user-images.githubusercontent.com/10562127/171936059-15a90575-3b48-4b11-9f4a-bcf787fc7c2c.png)
+![image](https://user-images.githubusercontent.com/10562127/171935862-ff8607b9-2c0e-4633-95a1-b163b9e1031b.png)
+![image](https://user-images.githubusercontent.com/10562127/171935937-a5a98a90-a015-4620-a82f-d3479abfde1e.png)
 
 
 
