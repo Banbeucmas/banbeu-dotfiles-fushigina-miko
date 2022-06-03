@@ -17,7 +17,7 @@ fi
 
 if [ $IGNORE == "no" ]; then
     echo "Ignore options found, installing dependencies"
-    $AUR -S rofi sxhkd picom-git polybar mpd ncmpcpp python-ueberzug-git xorg-xrdb xorg-xinit zsh stow gotop code zscroll-git
+    $AUR -S rofi sxhkd picom-jonaburg-fix polybar mpd ncmpcpp python-ueberzug-git xorg-xrdb xorg-xinit zsh stow gotop code zscroll-git
 fi
 
 if [ $OPTIONS == "all" ]; then
