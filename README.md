@@ -1,4 +1,6 @@
 # banbeu-arch-dotfiles
+![image](https://user-images.githubusercontent.com/10562127/171936025-22c9139f-2de3-4a68-9869-e28e8fb922e7.png)
+
 ## Introduction
 This project is aim to revamps my whole Linux dotfiles, I have been using my current dotfiles for 5 years, and with my machine getting to the point of reinstallation, It's time for me to rerice my beloved machine again.
 
@@ -41,7 +43,6 @@ make
 For wallpaper, I intentionally left it out of this rice, read above and apply the wallpaper manually if you want to use it for your rice
 
 ## Image
-![image](https://user-images.githubusercontent.com/10562127/171936025-22c9139f-2de3-4a68-9869-e28e8fb922e7.png)
 ![image](https://user-images.githubusercontent.com/10562127/171936059-15a90575-3b48-4b11-9f4a-bcf787fc7c2c.png)
 ![image](https://user-images.githubusercontent.com/10562127/171935862-ff8607b9-2c0e-4633-95a1-b163b9e1031b.png)
 ![image](https://user-images.githubusercontent.com/10562127/171935937-a5a98a90-a015-4620-a82f-d3479abfde1e.png)
