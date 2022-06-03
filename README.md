@@ -22,6 +22,7 @@ This also serves as a practice time for me when it comes to Bash and Linux manag
 - [x] music player
 - [x] install scripts
 - [ ] notification
+- [ ] logout interface (rofi)
 
 ## Installtion
 Clone the repository
