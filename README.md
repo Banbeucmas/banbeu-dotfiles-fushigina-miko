@@ -32,13 +32,22 @@ cd banbeu-arch-dotfiles
 ```
 
 For arch-based system. Edit `install.sh` and execute
+
 I recommend putting ignore option to `ask` and set option to `partial` for existing user that has riced their setup
 
 Else, install `rofi` `sxhkd` `picom-jonaburg-fix` `mpd` `libmpdclient` `polybar` `ncmpcpp` `python-ueberzug-git` `xorg-xrdb` `xorg-xinit` `zsh` `stow` `gotop` `code` `zscroll-git`, cd to the repository and manually use `stow` to apply the config
 
 Alternatively, to stow all files, use 
 ```bash
-make
+cd config && make
+```
+
+If you want to have notification for mpd, copy my script and enable it as a service
+```bash
+cp systemd/mpc-dunst.service ~/.config/systemd/user
+sudo cp config/dunst/.config/dunst/scripts/mpc_idle.sh /usr/local/bin
+
+systemctl --user enable mpc-dunst.service
 ```
 
 For wallpaper, I intentionally left it out of this rice, read above and apply the wallpaper manually if you want to use it for your rice
