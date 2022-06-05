@@ -21,7 +21,7 @@ This also serves as a practice time for me when it comes to Bash and Linux manag
 - [ ] dotfile manager
 - [x] music player
 - [x] install scripts
-- [ ] notification
+- [x] notification
 - [ ] logout interface (rofi)
 
 ## Installtion
@@ -32,7 +32,7 @@ cd banbeu-arch-dotfiles
 ```
 
 For arch-based system. Edit `install.sh` and execute
-I recommend putting ignore option to `no` and set option to `partial` for existing user that has riced their setup
+I recommend putting ignore option to `ask` and set option to `partial` for existing user that has riced their setup
 
 Else, install `rofi` `sxhkd` `picom-jonaburg-fix` `mpd` `libmpdclient` `polybar` `ncmpcpp` `python-ueberzug-git` `xorg-xrdb` `xorg-xinit` `zsh` `stow` `gotop` `code` `zscroll-git`, cd to the repository and manually use `stow` to apply the config
 
