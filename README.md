@@ -32,7 +32,7 @@ cd banbeu-arch-dotfiles
 ```
 
 For arch-based system. Edit `install.sh` and execute
-I recommend putting ignore option to `no` and set option to `partial` for existing user that has rice
+I recommend putting ignore option to `no` and set option to `partial` for existing user that has riced their setup
 
 Else, install `rofi` `sxhkd` `picom-jonaburg-fix` `mpd` `libmpdclient` `polybar` `ncmpcpp` `python-ueberzug-git` `xorg-xrdb` `xorg-xinit` `zsh` `stow` `gotop` `code` `zscroll-git`, cd to the repository and manually use `stow` to apply the config
 
