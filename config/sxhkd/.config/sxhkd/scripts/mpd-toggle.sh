@@ -5,7 +5,10 @@ state="$(xwininfo -name "polybar-music-player_HDMI-A-0" | grep -o 'IsUnMapped')"
 
 if [ $state == "IsUnMapped" ]; then
     polybar-msg cmd show
+    ~/.config/dunst/scripts/mpd_dunst.sh
 else
     polybar-msg cmd hide
+    dunstctl close
     bspc config -m focused bottom_padding $((`bspc config -m focused bottom_padding` - 42 ))
 fi
+
