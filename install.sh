@@ -111,6 +111,7 @@ elif [ $OPTIONS == "partial" ]; then
     echo ""
 else 
     echo "Stow option not found, assuming manual install later on"
+    exit
 fi
 
 
@@ -121,4 +122,3 @@ echo "Copy dunst mpc script and enable it for systemd servers"
 echo "cp systemd/mpc-dunst.service ~/.config/systemd/user"
 echo "sudo cp ~/.config/dunst/scripts/mpc-idle.sh /usr/local/bin"
 echo "systemctl --user enable mpc-dunst.service"
-
