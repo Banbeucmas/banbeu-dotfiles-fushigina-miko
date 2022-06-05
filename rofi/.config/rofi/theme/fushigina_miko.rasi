@@ -7,7 +7,7 @@
 window {
     background-color: var(background);
     padding: 20px 20px 30px 20px;
-    width: 900px;
+    width: 1000px;
 }
 
 inputbar {
