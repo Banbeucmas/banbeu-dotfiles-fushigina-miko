@@ -5,8 +5,14 @@ AUR=yay
 # Or you haven't initialize CodeVS even once
 # As well as activating all files
 OPTIONS="all" 
-IGNORE="yes" # Dependencies will be installed if IGNORE = "no"
+IGNORE="yes" # Dependencies will be installed if IGNORE = "no", Will ask before install with "ask"
 STARTUP="all" # Automatically applies all config, only applicable if OPTION = "All"
+
+install_package(){
+    $AUR -S rofi sxhkd picom-jonaburg-fix polybar mpd ncmpcpp python-ueberzug-git \
+    xorg-xrdb xorg-xinit zsh stow gotop code zscroll-git dunst
+}
+
 echo "Checking commands"
 
 if ! [ -x $(command -v $AUR &> /dev/null) ]; then
@@ -17,15 +23,27 @@ fi
 
 if [ $IGNORE == "no" ]; then
     echo "Ignore options found, installing dependencies"
-    $AUR -S rofi sxhkd picom-jonaburg-fix polybar mpd ncmpcpp python-ueberzug-git xorg-xrdb xorg-xinit zsh stow gotop code zscroll-git dunst
+    install_package
+else 
+    while true; do
+        read -p "Do you want to install the dependencies? [Y/n]" yn
+        case $yn in
+            [Yy]* ) install_package; break;;
+            [Nn]* ) break;;
+            * ) break;;
+        esac
+    done
 fi
+
 
 if [ $OPTIONS == "all" ]; then
     echo "Stowing all files"
-    make
+    cd config && make
+    #Escape because we will need to check other section later
+    cd ..
     xrdb -merge ~/.Xresources
     zsh -c "source ~/.zshrc"
-
+    
     if [ $STARTUP = "all" ]; then
         if ! [ $(pgrep -x polybar &> /dev/null) ]; then
             echo "Killing polybar"
@@ -47,11 +65,41 @@ if [ $OPTIONS == "all" ]; then
         fi
     fi
 
+    if ! [ $(ls ~/.config/systemd/user | grep mpc-dunst.service) ]; then
+        echo "mpc-dunst.service not found, Attempting to apply mpc-dunst.service"
+        cp systemd/mpc-dunst.service ~/.config/systemd/user
+    else 
+        echo "mpc-dunst.service found"
+    fi
+
+    # For notification
+    if ! [ $(ls /usr/local/bin | grep mpc-idle.sh) ]; then
+        if [ $IGNORE == "ask" ]; then
+            while true; do
+                read -p "Do you want to install mpc-idle for dunst notification (sudo required)? [Y/n]" yn
+                case $yn in
+                    [Yy]* ) sudo cp config/dunst/.config/dunst/scripts/mpc_idle.sh /usr/local/bin; break;;
+                    [Nn]* ) break;;
+                * ) break;;
+                esac
+            done
+
+            #User run systemd
+            systemctl --user enable mpc-dunst.service
+        elif [ $IGNORE == "yes" ]; then
+            echo "Copying mpc-idle script"
+            sudo cp config/dunst/.config/dunst/scripts/mpc_idle.sh /usr/local/bin
+
+            #User run systemd
+            systemctl --user enable mpc-dunst.service
+        fi
+    fi 
+
     echo "Installation done, manual intervention needed:"
     echo ""
 elif [ $OPTIONS == "partial" ]; then
     echo "Partial stow"
-    make partial
+    cd config && make partial
 
     echo "Installation done, manual intervention needed:"
     echo ""
@@ -69,6 +117,8 @@ fi
 echo "Manual symlink ncmpcpp-ueberzug to your local bin and run ncmpcpp-ueberzug if you want cover pics"
 echo "Example: ln -s $$HOME/.ncmpcpp/ncmpcpp-ueberzug/ncmpcpp-ueburzug $$HOME/.local/bin"
 echo ""
-
-
+echo "Copy dunst mpc script and enable it for systemd servers"
+echo "cp systemd/mpc-dunst.service ~/.config/systemd/user"
+echo "sudo cp ~/.config/dunst/scripts/mpc-idle.sh /usr/local/bin"
+echo "systemctl --user enable mpc-dunst.service"
 

@@ -60,5 +60,5 @@ startup_slave_screen_focus = yes
 locked_screen_width_part = 30
 
 # scripts
-execute_on_song_change = /home/banbeucmas/.ncmpcpp/ncmpcpp-ueberzug/ncmpcpp_cover_art.sh & ~/.config/dunst/scripts/mpd_dunst.sh
+execute_on_song_change = /home/banbeucmas/.ncmpcpp/ncmpcpp-ueberzug/ncmpcpp_cover_art.sh
 

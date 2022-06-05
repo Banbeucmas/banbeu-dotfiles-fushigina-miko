@@ -1,0 +1,8 @@
+[Unit]
+Description = MPC Notification
+
+[Service]
+ExecStart = /usr/local/bin/mpc_idle.sh
+
+[Install]
+WantedBy = default.target
