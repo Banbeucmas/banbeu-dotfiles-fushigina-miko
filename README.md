@@ -18,7 +18,7 @@ This also serves as a practice time for me when it comes to Bash and Linux manag
 - [x] rofi-theme
 - [ ] theme-swicher
 - [x] zst
-- [ ] dotfile manager
+- [x] dotfile manager
 - [x] music player
 - [x] install scripts
 - [x] notification
