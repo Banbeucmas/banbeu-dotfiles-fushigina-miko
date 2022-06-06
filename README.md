@@ -7,11 +7,16 @@ This project is aim to revamps my whole Linux dotfiles, I have been using my cur
 This also serves as a practice time for me when it comes to Bash and Linux management
 
 ## Basic information
+**OS:** Arch Linux
 **WM:** bspwm
-
 **DE:** XFCE
-
-**Wallpaper:** [Credit to 萃, click here to check](https://www.pixiv.net/en/artworks/65066440)
+**Wallpaper:** [◇不思議な巫女◇ by 萃, click here to check](https://www.pixiv.net/en/artworks/65066440)
+**Terminal:** xst
+**Fonts:** Cascadia Code + Source Han Serif JP
+**Editor:** Neovim
+**Menu:** rofi
+**Bar:** Polybar
+**Music player:** ncmpcpp + mpd
 
 ## To-do list
 - [x] polybars
@@ -53,9 +58,7 @@ systemctl --user enable mpc-dunst.service
 For wallpaper, I intentionally left it out of this rice, read above and apply the wallpaper manually if you want to use it for your rice
 
 ## Image
-![image](https://user-images.githubusercontent.com/10562127/171936059-15a90575-3b48-4b11-9f4a-bcf787fc7c2c.png)
-![image](https://user-images.githubusercontent.com/10562127/171935862-ff8607b9-2c0e-4633-95a1-b163b9e1031b.png)
-![image](https://user-images.githubusercontent.com/10562127/171935937-a5a98a90-a015-4620-a82f-d3479abfde1e.png)
+
 
 
 
