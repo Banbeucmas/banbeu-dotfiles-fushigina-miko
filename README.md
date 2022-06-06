@@ -78,7 +78,7 @@ For wallpaper, I intentionally left it out of this rice, read above and apply th
 **Q:** Can I post suggestion?  
 **A:** Sure, post an issue. I need to clean `install.sh`
 
-**Q:** How can I tslk to you?
+**Q:** How can I tslk to you?  
 **A:** I am fairly active in my own Discord. [Click here to join](https://discord.gg/CB9kw68)
 
 
