@@ -8,7 +8,7 @@ if [ $state == "IsUnMapped" ]; then
     ~/.config/dunst/scripts/mpd_dunst.sh
 else
     polybar-msg cmd hide
-    dunstctl close
+    dunstctl close &
     bspc config -m focused bottom_padding $((`bspc config -m focused bottom_padding` - 42 ))
 fi
 
