@@ -22,7 +22,7 @@ bspc rule -a jetbrains-webstorm desktop='^4'
 bspc rule -a code desktop='^4'
 bspc rule -a Chromium desktop='^2'
 bspc rule -a Firefox desktop='^2'
-bspc rule -a Vivaldi desktop='^2'
+bspc rule -a vivaldi-stable desktop='^2'
 bspc rule -a Nemo desktop='^5'
 bspc rule -a Thunar desktop='^5'
 bspc rule -a File-roller desktop='^5'
@@ -35,13 +35,6 @@ else
     bspc rule -a discord desktop='^3'
     bspc rule -a TelegramDesktop desktop='^3'
 fi
-
-
-bspc rule -a xst-256color:xst-neofetch state=floating
-bspc rule -a xst-256color:xst-panes state=floating
-bspc rule -a xst-256color:xst-ttyclock state=floating
-bspc rule -a xst-256color:xst-ncmpcpp state=floating
-bspc rule -a xst-256color:xst-calendar state=floating focus=off monitor='HDMI1'
 
 
 ~/.config/polybar/launch.sh & picom --experimental-backend & nitrogen --restore & ibus-daemon -drxR &
