@@ -2,7 +2,7 @@ configuration {
   mode: [ combi ];
   combi-mode: [drun, ssh];
   font: "Cantarell 10.5";
-
+  terminal : "xst";
   timeout {
     action: "kb-cancel";
     delay:  0;
