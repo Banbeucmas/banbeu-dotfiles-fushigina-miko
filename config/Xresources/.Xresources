@@ -49,3 +49,5 @@ polybar.background-alt-1: #ffecba
 polybar.foreground: #ffa6a6
 polybar.foreground-alt: #424141
 
+XTerm.vt100.backarrowKey: false
+XTerm.ttyModes: erase ^?

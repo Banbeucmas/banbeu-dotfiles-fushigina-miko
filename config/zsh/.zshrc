@@ -14,8 +14,7 @@ compinit
 export TERM=xterm-256color
 export PATH=$PATH:~/.local/bin/
 
-PROMPT="%F{1}%n%F{8}@%F{8}%m%f 
-%F{8}%8~%F{8} "
+PROMPT="%F{1}%n%F{8}@%F{8}%m%f%F{8}%8~%F{8} "
 
 alias toys="~/.scripts/toys"
 alias patchart="~/.scripts/patchart"
@@ -27,3 +26,6 @@ alias toufetch="~/.toys/blue_reimu_fetch"
 alias mpd_albumcover="~/.scripts/mpd_albumcover"
 
 #alias $DOT_CONFIG ="/mnt/Storages_Linux/Dotfiles/.config"
+
+# Dealing with Emac stty erase bs
+stty erase '^H'
