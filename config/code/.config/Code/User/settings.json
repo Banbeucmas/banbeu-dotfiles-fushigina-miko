@@ -10,6 +10,12 @@
         "statusBar.background" : "#ffa6a6"
     },
     "editor.fontWeight": "normal",
-    "window.zoomLevel": 1,
-    "git.enableSmartCommit": true
+    "git.enableSmartCommit": true,
+    "typescript.preferences.quoteStyle": "single",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "workbench.editorAssociations": {
+        "*.zip": "default"
+    },
+    "tabnine.experimentalAutoImports": true,
+    "window.zoomLevel": 1
 }

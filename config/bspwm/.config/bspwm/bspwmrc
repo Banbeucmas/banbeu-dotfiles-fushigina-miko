@@ -37,4 +37,4 @@ else
 fi
 
 
-~/.config/polybar/launch.sh & picom --experimental-backend & nitrogen --restore & ibus-daemon -drxR &
+picom --experimental-backend & nitrogen --restore & ibus-daemon -drxR & ~/.config/polybar/launch.sh & 
