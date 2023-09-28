@@ -65,7 +65,6 @@ For wallpaper, I intentionally left it out of this rice, read above and apply th
 **Q:** Why don't you post your wallpaper?  
 **A:** At least have some respect for the artist, check their work out!
 
-
 **Q:** How do you manage your dotfiles?  
 **A:** I know some has been using bare repository to manage their dotfiles recently, I prefer to use `stow` and `make` to symlink everything, try it out.
 
@@ -78,7 +77,7 @@ For wallpaper, I intentionally left it out of this rice, read above and apply th
 **Q:** Can I post suggestion?  
 **A:** Sure, post an issue. I need to clean `install.sh`
 
-**Q:** How can I tslk to you?  
+**Q:** How can I talk to you?  
 **A:** I am fairly active in my own Discord. [Click here to join](https://discord.gg/CB9kw68)
 
 
