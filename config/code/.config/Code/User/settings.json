@@ -2,7 +2,7 @@
     "git.autofetch": true,
     "workbench.colorTheme": "Default Light+",
     "workbench.preferredHighContrastColorTheme": "Default High Contrast Light",
-    "editor.fontFamily": "'Caskaydia Code Mono', 'CaskaydiaCove Nerd Font Mono', 'Droid Sans Mono', 'monospace', monospace",
+    "editor.fontFamily": "'Cascadia Mono', 'CaskaydiaCove NFM', 'Droid Sans Mono', 'monospace', monospace",
     "workbench.colorCustomizations": {
         
         "activityBar.background": "#f35a5a",
@@ -17,5 +17,12 @@
         "*.zip": "default"
     },
     "tabnine.experimentalAutoImports": true,
-    "window.zoomLevel": 1
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "editor.fontSize": 13,
+    "editor.inlineSuggest.enabled": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": 1,
+    "nxConsole.showNodeVersionOnStartup": false
 }
