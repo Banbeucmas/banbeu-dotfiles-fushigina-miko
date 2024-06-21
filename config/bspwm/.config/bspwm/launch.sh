@@ -2,7 +2,7 @@
 
 sxhkd &
 
-bspc monitor HDMI1 -d 1 2 3 4 5 6 7 8 9 10 11  
+bspc monitor -d 1 2 3 4 5 6 7 8 9 10 11  
 
 
 bspc config border_width         2

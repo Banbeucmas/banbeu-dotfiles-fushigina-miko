@@ -1,7 +1,7 @@
 #!/bin/sh
 
 pid="$(pgrep -a "polybar" | grep -e "music-player" | grep -o "[0-9]*")"
-state="$(xwininfo -name "polybar-music-player_HDMI-A-0" | grep -o 'IsUnMapped')"
+state="$(xwininfo -name "polybar-music-player_DisplayPort-0" | grep -o 'IsUnMapped')"
 
 if [ $state == "IsUnMapped" ]; then
     polybar-msg cmd show

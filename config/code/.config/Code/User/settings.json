@@ -23,6 +23,19 @@
     "editor.fontSize": 13,
     "editor.inlineSuggest.enabled": true,
     "workbench.iconTheme": "material-icon-theme",
+    "nxConsole.showNodeVersionOnStartup": false,
+    "indentRainbow.indicatorStyle": "light",
+    "indentRainbow.colors": [
+        "rgba(255,255,64,0.7)",
+        "rgba(127,255,127,0.7)",
+        "rgba(255,127,255,0.7)",
+        "rgba(79,236,236,0.7)"
+    ],
+    "tailwindCSS.experimental.classRegex": [
+        ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+        ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+    ],
+    "diffEditor.ignoreTrimWhitespace": false,
     "window.zoomLevel": 1,
-    "nxConsole.showNodeVersionOnStartup": false
+    "github.copilot.editor.enableAutoCompletions": true
 }
