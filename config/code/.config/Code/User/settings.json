@@ -1,6 +1,6 @@
 {
     "git.autofetch": true,
-    "workbench.colorTheme": "Default Light+",
+    "workbench.colorTheme": "Light+",
     "workbench.preferredHighContrastColorTheme": "Default High Contrast Light",
     "editor.fontFamily": "'Cascadia Mono', 'CaskaydiaCove NFM', 'Droid Sans Mono', 'monospace', monospace",
     "workbench.colorCustomizations": {
@@ -37,5 +37,31 @@
     ],
     "diffEditor.ignoreTrimWhitespace": false,
     "window.zoomLevel": 1,
-    "github.copilot.editor.enableAutoCompletions": true
+    "github.copilot.editor.enableAutoCompletions": true,
+    "remote.SSH.remotePlatform": {"coder-vscode.yukari.banbeu.com--banbeucams--website-portfolio-kurokotei":"linux","coder-vscode.yukari.banbeu.com--banbeucams--development-website.main":"linux"},
+    "remote.SSH.connectTimeout": 1800,
+    "chat.instructionsFilesLocations": {
+        ".github/instructions": true,
+        ".claude/rules": true,
+        "~/.copilot/instructions": true,
+        "~/.claude/rules": true,
+        "/tmp/postman-collections-post-response.instructions.md": true,
+        "/tmp/postman-collections-pre-request.instructions.md": true,
+        "/tmp/postman-folder-post-response.instructions.md": true,
+        "/tmp/postman-folder-pre-request.instructions.md": true,
+        "/tmp/postman-http-request-post-response.instructions.md": true,
+        "/tmp/postman-http-request-pre-request.instructions.md": true
+    },
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "json.schemaDownload.trustedDomains": {
+        "https://schemastore.azurewebsites.net/": true,
+        "https://raw.githubusercontent.com/microsoft/vscode/": true,
+        "https://raw.githubusercontent.com/devcontainers/spec/": true,
+        "https://www.schemastore.org/": true,
+        "https://json.schemastore.org/": true,
+        "https://json-schema.org/": true,
+        "https://developer.microsoft.com/json-schemas/": true,
+        "https://biomejs.dev": true
+    }
 }

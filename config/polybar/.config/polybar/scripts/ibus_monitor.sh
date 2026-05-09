@@ -4,7 +4,7 @@ addr=$(ibus address)
 entry="destination='org.freedesktop.IBus',interface='org.freedesktop.IBus',member='SetGlobalEngine'"
 
 #Technically a hack since dbus-monitor is dum
-(sleep 1 && echo "$(ibus engine)") &
+(sleep 3 && echo "$(ibus engine)") &
 
 while true; do
     dbus-monitor --monitor --address $addr $entry | 

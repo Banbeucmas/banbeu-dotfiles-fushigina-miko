@@ -13,7 +13,7 @@ while read -r lang; do
             echo "jp"
             ;;
         *)
-            echo $lang
+            echo "n/a"
             ;;
     esac
 done

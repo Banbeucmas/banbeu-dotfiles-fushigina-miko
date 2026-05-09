@@ -29,3 +29,4 @@ alias mpd_albumcover="~/.scripts/mpd_albumcover"
 
 # Dealing with Emac stty erase bs
 stty erase '^H'
+source /usr/share/nvm/init-nvm.sh

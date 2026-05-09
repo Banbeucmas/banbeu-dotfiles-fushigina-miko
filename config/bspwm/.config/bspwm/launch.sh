@@ -2,11 +2,14 @@
 
 sxhkd &
 
-bspc monitor -d 1 2 3 4 5 6 7 8 9 10 11  
+bspc monitor DP-2 -f
+sleep 0.1
+bspc monitor DP-2 -d 1 2 3 4 5 6 7 8 9 10
+bspc monitor HDMI-2 -d n1
 
 
-bspc config border_width         2
-bspc config window_gap          10
+bspc config border_width         4
+bspc config window_gap          16
 bspc config split_ratio          0.52
 bspc config borderless_monocle   true
 bspc config gapless_monocle      false

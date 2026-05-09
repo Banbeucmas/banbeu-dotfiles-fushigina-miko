@@ -6,13 +6,13 @@
 
 window {
     background-color: var(background);
-    padding: 20px 20px 30px 20px;
-    width: 1000px;
+    padding: 24px 24px 32px 24px;
+    width: 2000px;
 }
 
 inputbar {
     text-color: var(foreground);
-    padding: 10px;
+    padding: 16px;
     children: [ "prompt","textbox-prompt-colon","entry"];
 }
 
@@ -36,9 +36,9 @@ entry {
 }
 
 listview {
-    padding: 10px;
+    padding: 20px;
     columns: 3;
-    spacing: 4px;
+    spacing: 12px;
     lines: 12;
 }
 

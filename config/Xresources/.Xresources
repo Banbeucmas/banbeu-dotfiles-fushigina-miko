@@ -1,5 +1,5 @@
-st.font: Cascadia Code:pixelsize=14:style=SemiLight:antialias=true:autohint=true;
-st.borderpx: 20
+st.font: Cascadia Code:pixelsize=28:style=SemiLight:antialias=true:autohint=true;
+st.borderpx: 32
 
 st.shell: /bin/zsh
 

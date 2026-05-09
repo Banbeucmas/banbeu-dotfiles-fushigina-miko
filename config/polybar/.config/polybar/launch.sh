@@ -8,4 +8,4 @@ polybar -r music-player & sleep 1
 
 #Hide the music player bar
 polybar-msg cmd hide
-bspc config -m focused bottom_padding $((`bspc config -m focused bottom_padding` - 42 ))
+#bspc config -m focused bottom_padding $((`bspc config -m focused bottom_padding` - 76 ))
